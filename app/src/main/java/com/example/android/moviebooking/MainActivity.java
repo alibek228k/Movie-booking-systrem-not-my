@@ -1,8 +1,9 @@
 package com.example.android.moviebooking;
 
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundlgit inite;
 
 public class MainActivity extends AppCompatActivity {
 
