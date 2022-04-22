@@ -17,6 +17,6 @@
     </style>
 
     <style name="Button.Green" parent="Theme.AppCompat">
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorAccent</item>
     </style>
 </resources>

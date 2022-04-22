@@ -10,7 +10,7 @@
 
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:src="@drawable/logo"
+        android:src="@drawable/logo_curve"
         app:layout_constraintBottom_toTopOf="@+id/loginTextView"
         app:layout_constraintEnd_toEndOf="@+id/loginTextView"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,9 +85,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/passwordInputLayout" />
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/loginButton"
-        style="@style/Widget.AppCompat.Button.Colored"
+        style="@style/Widget.MaterialComponents.Button.UnelevatedButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -96,7 +96,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/passwordInputLayout" />
+        app:layout_constraintTop_toBottomOf="@+id/passwordInputLayout"/>
 
     <TextView
         android:id="@+id/singUpText"

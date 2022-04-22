@@ -15,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.android.moviebooking.R;
 import com.example.android.moviebooking.login.LoginActivity;
+import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.vishnusivadas.advanced_httpurlconnection.PutData;
 
@@ -24,7 +25,7 @@ public class RegistrationActivity extends AppCompatActivity {
             textInputEditTextLastName,
             textInputEditTextEmail,
             textInputEditTextPassword;
-    private Button registrationButton;
+    private MaterialButton registrationButton;
     private TextView loginTextView;
     private ProgressBar progress;
 
@@ -68,7 +69,7 @@ public class RegistrationActivity extends AppCompatActivity {
                         data[1] = lastName;
                         data[2] = email;
                         data[3] = password;
-                        PutData putData = new PutData("http://192.168.1.65/LoginRegister/signup.php", "POST", field, data);
+                        PutData putData = new PutData("https://devscinema.herokuapp.com/signupAndroid.php", "POST", field, data);
                         if (putData.startPut()) {
                             if (putData.onComplete()) {
                                 progress.setVisibility(View.GONE);
