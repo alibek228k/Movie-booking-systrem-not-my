@@ -3,11 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MovieBooking/app/src/main/res/layout/activity_login.xml" value="0.2" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MovieBooking/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MovieBooking/app/src/main/res/layout/activity_registeration.xml" value="0.25384615384615383" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MovieBooking/app/src/main/res/layout/activity_registration.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/Admin/AndroidStudioProjects/MovieBooking/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/Users/alibe/AndroidStudioProjects/CinemaApp/app/src/main/res/drawable/ic_email.xml" value="0.1" />
+        <entry key="..\:/Users/alibe/AndroidStudioProjects/CinemaApp/app/src/main/res/layout/activity_landing.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/alibe/AndroidStudioProjects/CinemaApp/app/src/main/res/layout/activity_login.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/alibe/AndroidStudioProjects/CinemaApp/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/alibe/AndroidStudioProjects/CinemaApp/app/src/main/res/layout/activity_make_reservation.xml" value="0.33" />
+        <entry key="..\:/Users/alibe/AndroidStudioProjects/CinemaApp/app/src/main/res/layout/activity_registration.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/alibe/AndroidStudioProjects/CinemaApp/app/src/main/res/menu/loginmenu.xml" value="0.1" />
+        <entry key="..\:/Users/alibe/AndroidStudioProjects/CinemaApp/app/src/main/res/menu/navigation.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
