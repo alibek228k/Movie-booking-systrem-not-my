@@ -1,7 +1,8 @@
 package com.example.cinemaapp.repository;
 
 import android.os.Build;
-import android.support.annotation.RequiresApi;
+
+import androidx.annotation.RequiresApi;
 
 import com.example.cinemaapp.R;
 import com.example.cinemaapp.model.Film;

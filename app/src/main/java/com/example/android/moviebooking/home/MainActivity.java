@@ -7,8 +7,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.android.moviebooking.R;
 import com.example.android.moviebooking.login.LoginActivity;
+import com.example.cinemaapp.R;
 
 
 public class MainActivity extends AppCompatActivity {

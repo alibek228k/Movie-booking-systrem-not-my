@@ -3,7 +3,8 @@ package com.example.cinemaapp.presenter;
 import android.annotation.TargetApi;
 import android.graphics.Bitmap;
 import android.os.Build;
-import android.support.annotation.RequiresApi;
+
+import androidx.annotation.RequiresApi;
 
 import com.example.cinemaapp.model.Film;
 import com.example.cinemaapp.model.Reservation;

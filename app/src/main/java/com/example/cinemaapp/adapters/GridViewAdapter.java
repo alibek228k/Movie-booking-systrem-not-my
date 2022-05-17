@@ -2,12 +2,13 @@ package com.example.cinemaapp.adapters;
 
 import android.content.Context;
 import android.graphics.Color;
-import android.support.v4.content.ContextCompat;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.GridView;
+
+import androidx.core.content.ContextCompat;
 
 import com.example.cinemaapp.R;
 
