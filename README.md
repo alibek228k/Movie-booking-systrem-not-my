@@ -45,3 +45,6 @@ Use the in-app ticket to skip long lines at the cinema.
 
 ## Authors
 * Alibek Joldybayev 
+* Azamat Makulbay
+* Nursultan Begassilov   
+* Aruzhan Sadyk
