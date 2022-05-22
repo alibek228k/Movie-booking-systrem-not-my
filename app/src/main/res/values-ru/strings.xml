@@ -1,42 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Movie Booking</string>
-    <string name="title_home">Home</string>
-    <string name="title_reservations">Reservations</string>
-    <string name="title_favorites">Favorites</string>
-    <string name="swipeButtonText">SWIPE TO RESERVE</string>
-    <string name="movieTitle">Title</string>
+    <string name="app_name">Бронирование фильмов</string>
+    <string name="title_home">Главная</string>
+    <string name="title_reservations">Бронирования</string>
+    <string name="title_favorites">Избранное</string>
+    <string name="swipeButtonText">ПРОВЕДИТЕ, ЧТОБЫ ЗАБРОНИРОВАТЬ</string>
+    <string name="movieTitle">Название</string>
     <string name="movieTime">13:30</string>
-    <string name="no_reservations_msg_header">No reservations yet</string>
-    <string name="no_favorites_msg_header">No favorites yet</string>
-    <string name="no_favorites_msg_body">Tap the heart icon on a film to add it to your favorites list.</string>
-    <string name="no_reservations_msg_body">Tap the RESERVE button on a film to make a reservation.</string>
-    <string name="login">Login</string>
-    <string name="register">Register</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
-    <string name="firstName">First Name</string>
-    <string name="lastName">Last Name</string>
-    <string name="have_account">Already have an account? Login</string>
-    <string name="create_account">Create a new account.</string>
-    <string name="language">Language:</string>
+    <string name="no_reservations_msg_header">Пока нет бронирований</string>
+    <string name="no_favorites_msg_header">Пока нет избранного</string>
+    <string name="no_favorites_msg_body">Нажмите значок сердца на фильме, чтобы добавить его в список избранного.</string>
+    <string name="no_reservations_msg_body">Нажмите кнопку ЗАКАЗАТЬ на фильме, чтобы сделать заказ.</string>
+    <string name="login">Войти</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="email">Электронная почта</string>
+    <string name="password">Пароль</string>
+    <string name="firstName">Имя</string>
+    <string name="lastName">Фамилия</string>
+    <string name="have_account">У вас уже есть учетная запись? Войти</string>
+    <string name="create_account">Создайте новую учетную запись.</string>
+    <string name="language">Язык:</string>
     <string name="russian">Русский</string>
     <string name="english">English</string>
     <string name="kazakh">Қазақша</string>
-    <string name="theme">Theme:</string>
-    <string name="light">Light</string>
-    <string name="night">Night:</string>
-    <string name="settings">Settings</string>
+    <string name="theme">Тема:</string>
+    <string name="light">Светлая</string>
+    <string name="night">Темная</string>
+    <string name="settings">Настройки</string>
 
     <string-array name="genres_array">
-        <item>All</item>
-        <item>Drama</item>
-        <item>Adventure</item>
-        <item>Animation</item>
-        <item>Horror</item>
-        <item>Comedy</item>
-        <item>Romance</item>
-        <item>Documentary</item>
-        <item>Fantasy</item>
+        <item>Все</item>
+        <item>Драма</item>
+        <item>Приключение</item>
+        <item>Анимация</item>
+        <item>Ужас</item>
+        <item>Комедия</item>
+        <item>Романтика</item>
+        <item>Документальный фильм</item>
 
     </string-array>
 

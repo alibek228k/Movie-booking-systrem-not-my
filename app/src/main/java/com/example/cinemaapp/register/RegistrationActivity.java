@@ -13,6 +13,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.cinemaapp.R;
 import com.example.cinemaapp.login.LoginActivity;
+import com.example.cinemaapp.validator.EditTextValidator;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputEditText;
 import com.vishnusivadas.advanced_httpurlconnection.PutData;
@@ -40,6 +41,8 @@ public class RegistrationActivity extends AppCompatActivity {
         registrationButton = findViewById(R.id.buttonSignUp);
         loginTextView = findViewById(R.id.loginText);
         progress = findViewById(R.id.progress);
+        setupPasswordValidator();
+        setupEmailValidator();
 
         registrationButton.setOnClickListener(view -> {
 
@@ -96,4 +99,44 @@ public class RegistrationActivity extends AppCompatActivity {
             finish();
         });
     }
+
+    private void setupPasswordValidator() {
+        textInputEditTextPassword.addTextChangedListener(new EditTextValidator(textInputEditTextPassword) {
+            @Override
+            public void validate(TextInputEditText editText, String text) {
+                String regex = "^(?=.{8,}\\$)(?=.*[a-z])(?=.*\\\\W).*\\$";
+                String email = textInputEditTextPassword.getText().toString();
+
+                if (email.trim().isEmpty()) {
+                    textInputEditTextPassword.setError("Password can not be blanc!");
+                } else if (email.matches(regex)){
+                    textInputEditTextPassword.setError(null);
+                }else{
+                    textInputEditTextPassword.setError("Password should contain: at least 8 symbols, 1 special symbol");
+                }
+            }
+        });
+    }
+
+    private void setupEmailValidator() {
+        textInputEditTextEmail.addTextChangedListener(new EditTextValidator(textInputEditTextEmail) {
+            @Override
+            public void validate(TextInputEditText editText, String text) {
+                String regex = "^(.+)@(.+)$";
+                String email = textInputEditTextEmail.getText().toString();
+
+                if (email.trim().isEmpty()) {
+                    textInputEditTextEmail.setError("Email can not be blanc!");
+                } else if (email.matches(regex)){
+                    textInputEditTextEmail.setError(null);
+                }else{
+                    textInputEditTextEmail.setError("Incorrect format");
+                }
+            }
+        });
+    }
+
+
+
+
 }

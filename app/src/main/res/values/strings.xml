@@ -18,6 +18,14 @@
     <string name="lastName">Last Name</string>
     <string name="have_account">Already have an account? Login</string>
     <string name="create_account">Create a new account.</string>
+    <string name="language">Language:</string>
+    <string name="russian">Русский</string>
+    <string name="english">English</string>
+    <string name="kazakh">Қазақша</string>
+    <string name="theme">Theme:</string>
+    <string name="light">Light</string>
+    <string name="night">Dark</string>
+    <string name="settings">Settings</string>
 
     <string-array name="genres_array">
         <item>All</item>
@@ -28,6 +36,7 @@
         <item>Comedy</item>
         <item>Romance</item>
         <item>Documentary</item>
+        <item>Fantasy</item>
 
     </string-array>
 

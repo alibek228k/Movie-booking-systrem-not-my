@@ -55,7 +55,6 @@ public class FilmAdapter extends RecyclerView.Adapter<FilmAdapter.FilmHolder> {
         holder.poster.setImageResource(currentFilm.getImagePath());
         holder.textViewTitle.setText(currentFilm.getTitle());
         holder.textViewGenre.setText(currentFilm.getGenre());
-        holder.textViewRating.setText("  " + String.valueOf(currentFilm.getRating()));
         holder.textViewDescription.setText(currentFilm.getDescription());
 
         HashMap<Time, List<Boolean>> thisFilmProgram = Repository.getHardcodedProgram().get(currentFilm.getTitle());

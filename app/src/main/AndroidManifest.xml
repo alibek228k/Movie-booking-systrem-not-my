@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.cinemaapp">
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,28 +13,32 @@
         android:usesCleartextTraffic="true"
         tools:replace="android:allowBackup"
         tools:targetApi="m">
-        <activity android:name=".view.LandingActivity"
+        <activity
+            android:name=".settings.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.LandingActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".register.RegistrationActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false"
+            android:theme="@style/Theme.MovieBooking"></activity>
         <activity
             android:name=".login.LoginActivity"
-            android:exported="false" />
-
+            android:exported="false"
+            android:theme="@style/Theme.MovieBooking" />
         <activity
             android:name=".view.MakeReservationActivity"
             android:parentActivityName=".view.MainActivity" />
         <activity
             android:name=".view.MainActivity"
-            android:label="@string/app_name">
-        </activity>
+            android:label="@string/app_name"></activity>
     </application>
 
 </manifest>

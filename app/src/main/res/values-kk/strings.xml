@@ -1,43 +1,41 @@
-<resources>
-    <string name="app_name">Movie Booking</string>
-    <string name="title_home">Home</string>
-    <string name="title_reservations">Reservations</string>
-    <string name="title_favorites">Favorites</string>
-    <string name="swipeButtonText">SWIPE TO RESERVE</string>
-    <string name="movieTitle">Title</string>
-    <string name="movieTime">13:30</string>
-    <string name="no_reservations_msg_header">No reservations yet</string>
-    <string name="no_favorites_msg_header">No favorites yet</string>
-    <string name="no_favorites_msg_body">Tap the heart icon on a film to add it to your favorites list.</string>
-    <string name="no_reservations_msg_body">Tap the RESERVE button on a film to make a reservation.</string>
-    <string name="login">Login</string>
-    <string name="register">Register</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
-    <string name="firstName">First Name</string>
-    <string name="lastName">Last Name</string>
-    <string name="have_account">Already have an account? Login</string>
-    <string name="create_account">Create a new account.</string>
-    <string name="language">Language:</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Фильмді брондау</string>
+    <string name="title_home">Үй</string>
+    <string name="title_reservations">Брондау</string>
+    <string name="title_favorites">Таңдаулылар</string>
+    <string name="swipeButtonText">БЕРІП АЛУ ҮШІН СҮЙІП АЛУ</string>
+    <string name="movieTitle">Тақырып</string>
+    <string name = "movieTime">13:30</string>
+    <string name = "no_reservations_msg_header">Әлі брондау жоқ</string>
+    <string name = "no_favorites_msg_header">Әлі таңдаулылар жоқ</string>
+    <string name = "no_favorites_msg_body">Фильмді таңдаулылар тізіміне қосу үшін оның жүрек белгішесін түртіңіз.</string>
+    <string name = "no_reservations_msg_body">Брондау үшін фильмдегі РЕЗЕРВТЕУ түймесін басыңыз.</string>
+    <string name="login">Кіру</string>
+    <string name="register">Тіркелу</string>
+    <string name="email">Электрондық пошта</string>
+    <string name="password">Құпия сөз</string>
+    <string name = "firstName" >Аты</string>
+    <string name="lastName">Тегі</string>
+    <string name="have_account">Әлдеқашан тіркелгенсіз бе? Жүйеге кіру</string>
+    <string name = "create_account" >Тіркелу</string>
+    <string name="language">Тіл:</string>
     <string name="russian">Русский</string>
     <string name="english">English</string>
     <string name="kazakh">Қазақша</string>
-    <string name="theme">Theme:</string>
-    <string name="light">Light</string>
-    <string name="night">Night:</string>
-    <string name="settings">Settings</string>
+    <string name="theme">Тема</string>
+    <string name="light">Күндізгі</string>
+    <string name="night">Түнгі</string>
+    <string name="settings">Баптаулар</string>
 
-    <string-array name="genres_array">
-        <item>All</item>
-        <item>Drama</item>
-        <item>Adventure</item>
-        <item>Animation</item>
-        <item>Horror</item>
-        <item>Comedy</item>
-        <item>Romance</item>
-        <item>Documentary</item>
-        <item>Fantasy</item>
-
+    <string-array name="genres_array" >
+        <item>Барлығы</item>
+        <item>Драма</item>
+        <item>Шытырман оқиға</item>
+        <item>Анимация</item>
+        <item>Қорқынышты</item>
+        <item>Комедия</item>
+        <item>Романтика</item>
+        <item>Деректі фильм</item>
     </string-array>
 
 </resources>

@@ -8,15 +8,13 @@ public class Film implements Serializable {
     private String title;
     private String genre;
     private String description;
-    private double rating;
     private int imagePath;
     private boolean isFavorite;
 
-    public Film(String title, String genre, String description, double rating, int imagePath) {
+    public Film(String title, String genre, String description, int imagePath) {
         this.title = title;
         this.genre = genre;
         this.description = description;
-        this.rating = rating;
         this.imagePath = imagePath;
         isFavorite = false;
     }
@@ -43,14 +41,6 @@ public class Film implements Serializable {
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public double getRating() {
-        return rating;
-    }
-
-    public void setRating(double rating) {
-        this.rating = rating;
     }
 
     public int getImagePath() {

@@ -11,6 +11,8 @@ import androidx.fragment.app.Fragment;
 
 import com.example.cinemaapp.R;
 import com.example.cinemaapp.login.LoginActivity;
+import com.example.cinemaapp.register.RegistrationActivity;
+import com.example.cinemaapp.settings.SettingsActivity;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -65,6 +67,14 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == R.id.login){
             Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+        }else if (item.getItemId() == R.id.register){
+            Intent intent = new Intent(getApplicationContext(), RegistrationActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            startActivity(intent);
+        }else if (item.getItemId() == R.id.settings){
+            Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(intent);
         }

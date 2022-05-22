@@ -56,7 +56,6 @@ public class FavoriteFilmAdapter extends RecyclerView.Adapter<FavoriteFilmAdapte
         holder.poster.setImageResource(currentFilm.getImagePath());
         holder.textViewTitle.setText(currentFilm.getTitle());
         holder.textViewGenre.setText(currentFilm.getGenre());
-        holder.textViewRating.setText("  " + String.valueOf(currentFilm.getRating()));
         holder.textViewDescription.setText(currentFilm.getDescription());
 
         HashMap<Time, List<Boolean>> thisFilmProgram = Repository.getHardcodedProgram().get(currentFilm.getTitle());
@@ -114,7 +113,6 @@ public class FavoriteFilmAdapter extends RecyclerView.Adapter<FavoriteFilmAdapte
         private ImageView poster;
         private TextView textViewTitle;
         private TextView textViewGenre;
-        private TextView textViewRating;
         private TextView expandIcon;
         private TextView textViewDescription;
         private RelativeLayout detailsOnExpand;
@@ -130,7 +128,6 @@ public class FavoriteFilmAdapter extends RecyclerView.Adapter<FavoriteFilmAdapte
             poster = itemView.findViewById(R.id.film_poster);
             textViewTitle = itemView.findViewById(R.id.text_view_title);
             textViewGenre = itemView.findViewById(R.id.text_view_genre);
-            textViewRating = itemView.findViewById(R.id.text_view_rating);
             expandIcon = itemView.findViewById(R.id.expand_icon);
             textViewDescription = itemView.findViewById(R.id.text_view_description);
             detailsOnExpand = itemView.findViewById(R.id.details_on_expand);

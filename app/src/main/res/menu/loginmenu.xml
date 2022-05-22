@@ -11,4 +11,9 @@
         android:id="@+id/register"
         android:orderInCategory="2"/>
 
+    <item
+        android:title="@string/settings"
+        android:id="@+id/settings"
+        android:orderInCategory="2"/>
+
 </menu>
