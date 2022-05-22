@@ -44,6 +44,7 @@ Use the in-app ticket to skip long lines at the cinema.
 <img src="/screenshots/gif5.gif" width="270">
 
 ## Authors
-* Olga Turcan - [cherryDevBomb](https://github.com/cherryDevBomb)
-* Raluca Suciu - [raluuusuciu](https://github.com/raluuusuciu)
-* Viorel Gurdis - [viorelyo](https://github.com/viorelyo)
+* Alibek Joldybayev
+* Azamat Makulbay
+* Nursultan Begassilov
+* Aruzhan Sadyk
