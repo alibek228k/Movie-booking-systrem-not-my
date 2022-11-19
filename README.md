@@ -44,13 +44,7 @@ Use the in-app ticket to skip long lines at the cinema.
 <img src="/screenshots/gif5.gif" width="270"
 
 ## Authors
-<<<<<<< HEAD
-* Alibek Joldybayev
-* Azamat Makulbay
-* Nursultan Begassilov
-=======
 * Alibek Joldybayev 
 * Azamat Makulbay
 * Nursultan Begassilov   
->>>>>>> 60e23c5dd959fc54d8d9f0502c244c5882bb3120
 * Aruzhan Sadyk
